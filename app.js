@@ -18,6 +18,7 @@ fetch("https://icanhazdadjoke.com", {
 
     }).then(data => {
         console.log(data);
+        jokeElement.innerHTML = data.joke
     })
 
 
