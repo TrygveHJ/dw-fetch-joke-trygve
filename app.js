@@ -20,23 +20,3 @@ fetch("https://icanhazdadjoke.com", {
         console.log(data);
         jokeElement.innerHTML = data.joke
     })
-
-
-
-
-
-
-// hjælp fra steen
-// const baseUrl = "https://icanhazdadjoke.com"
-// async function getData(url) {
-//     const res = await fetch(url, {
-//         headers: {
-//             Accept: "application/json"
-//         }
-//     });
-//     console.log(res);
-
-//     console.log(await res.json());
-
-// }
-// getData(baseUrl)
